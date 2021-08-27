@@ -1,0 +1,339 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+  padding: 0;
+}
+body {
+  font-family: cursive;
+}
+
+/*start navbar*/
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+
+  z-index: 1;
+}
+
+.navbar .nav-btn {
+  margin-right: 60px;
+}
+
+.navbar .navbar-brand img {
+  width: 80px;
+}
+.navbar .navbar-nav {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar .nav-ul {
+  margin-left: 130px;
+}
+.navbar .navbar-nav .nav-item .active,
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(243, 33, 33);
+}
+
+.navbar .navbar-nav li {
+  padding-left: 30px;
+}
+
+.navbar .navbar-text {
+  padding: 7px 10px;
+  outline: none;
+  border: 1px solid orangered;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 70px;
+}
+.navbar .navbar-text:hover {
+  color: white;
+  background-color: orangered;
+  cursor: pointer;
+}
+
+/*start carousel*/
+
+.carousel .hei {
+  height: calc(100vh - 78.3px);
+  margin-top: 78.3px;
+}
+
+.carousel .carousel-caption {
+  width: 350px;
+  transform: translate(-30px, -100px);
+}
+
+.carousel .carousel-caption h1 {
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.carousel .carousel-caption p {
+  color: #444;
+  font-size: 25px;
+}
+
+.carousel .carousel-caption button {
+  color: white;
+  background-color: orangered;
+  border: none;
+  padding: 10px 30px;
+}
+
+.carousel .carousel-caption button:hover {
+  color: orangered;
+  background-color: #fff;
+}
+
+.carousel .carousel-control-prev-icon,
+.carousel .carousel-control-next-icon {
+  background-color: rgb(175, 33, 33);
+  border-radius: 70%;
+}
+
+/*start cart*/
+.cart {
+  background-image: url(../images/offer.jpg);
+  background-size: cover;
+  background-position-x: center;
+  height: calc(100vh - 78.3px);
+}
+.cart .con {
+  padding: 100px 30px;
+}
+.cart .con p {
+  color: rgb(112, 111, 111);
+  font-size: 20px;
+}
+.cart .con h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+.cart .con span {
+  color: orangered;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.cart .con button {
+  margin-top: 30px;
+  font-size: 20px;
+  padding: 8px 20px;
+  font-weight: bold;
+  color: white;
+  background-color: orangered;
+  border: none;
+}
+
+.cart .con button:hover {
+  color: orangered;
+  background-color: white;
+}
+
+/*start menu*/
+.menu .card {
+  background-color: rgb(248, 248, 248);
+  margin: auto;
+
+  border: 1px solid rgb(179, 173, 173);
+}
+
+.menu .card:hover {
+  position: relative;
+  top: -50px;
+  border: 1px solid orangered;
+}
+
+.menu .card:hover img {
+  width: 100%;
+}
+.menu .menu-header {
+  margin: 40px auto 10px;
+  font-weight: bold;
+  font-size: 40px;
+}
+.menu .menu-parag {
+  font-size: 15px;
+  margin-bottom: 70px;
+  position: relative;
+}
+
+.menu .menu-parag::after {
+  content: " ";
+  height: 3px;
+  width: 50px;
+  background-color: orangered;
+  position: absolute;
+  transform: translate(-180px, 50px);
+}
+
+.menu .imge {
+  width: 90%;
+  margin: auto;
+}
+.menu .card-body .card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.menu .card-body .card-text {
+  color: rgb(145, 140, 140);
+}
+
+.menu .card-body span {
+  color: orange;
+  font-weight: bold;
+}
+
+.menu .card-body .btn {
+  margin-top: 20px;
+  background-color: rgb(248, 248, 248);
+  color: orange;
+  border: 1px solid orange;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 25px;
+}
+
+.menu .card-body .btn:hover {
+  color: white;
+  background-color: orange;
+}
+
+.hr {
+  width: 90%;
+  margin: 30px auto;
+}
+
+/*start section*/
+
+.section .section-block {
+  margin-bottom: 40px;
+}
+
+.section .section-block i {
+  color: orangered;
+}
+.section .section-block h3 {
+  margin: 10px auto;
+}
+.section .section-block p {
+  color: rgb(141, 133, 133);
+}
+
+/*start reservation*/
+.reservation {
+  background-image: url(../images/book.jpg);
+  background-size: cover;
+  min-height: 250px;
+  background-position-x: 60%;
+}
+
+.reservation .reserve-section {
+  color: white;
+  padding: 100px 30px;
+  font-weight: bold;
+}
+
+.reservation .reserve-section h2 {
+  font-size: 50px;
+}
+.reservation .reserve-section p {
+  font-size: 30px;
+}
+
+/*start form*/
+.form-section form .btn-reserve {
+  border: 1px solid orangered;
+  color: white;
+  background-color: orangered;
+  margin-left: 42%;
+  margin-top: 25px;
+}
+
+.form-section form {
+  margin-top: 60px;
+}
+.form-section .form-parag {
+  position: relative;
+}
+.form-section .form-parag::after {
+  content: "";
+  height: 3px;
+  width: 50px;
+  background-color: orangered;
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  transform: translateX(-50%);
+}
+
+.form-section form .btn-reserve {
+  text-align: center;
+}
+.form-section form .btn-reserve:hover {
+  color: orangered;
+  background-color: white;
+}
+
+/*start footer*/
+.footer {
+  padding-top: 60px;
+  margin: auto;
+}
+
+.footer h2 {
+  margin-bottom: 40px;
+  color: white;
+  font-size: 22px;
+}
+.footer p,
+.footer span,
+.footer i {
+  color: rgb(153, 141, 141);
+}
+
+.footer .footer-box1 img {
+  width: 25%;
+  margin-bottom: 13px;
+  position: relative;
+  top: -15px;
+}
+
+.footer .footer-box1 i {
+  padding: 8px;
+  color: white;
+}
+
+.footer .footer-box1 i:hover {
+  color: orangered;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.footer .footer-box2 .btn {
+  background-color: orangered;
+}
+
+.footer .footer-box2 form {
+  margin-top: 30px;
+}
+.footer .footer-box3 i {
+  margin-bottom: 8px;
+}
+
+.footer hr {
+  color: white;
+}
+
+.footer .foot a {
+  color: rgb(153, 141, 141);
+  text-decoration: none;
+}
